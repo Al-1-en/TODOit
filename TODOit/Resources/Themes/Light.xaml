@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TODOit.Resources.Themes">
+    <!--Window-->
+    <SolidColorBrush x:Key="Window.Background" Color="White"/>
+    <SolidColorBrush x:Key="Window.Border.Color" Color="WhiteSmoke"/>
+    <SolidColorBrush x:Key="WindowInActive.Border.Color" Color="White"/>
+    <!--TitleBar-->
+    <SolidColorBrush x:Key="WindowTitleBar.Background" Color="White"/>
+    <SolidColorBrush x:Key="WindowTitleBar.Path.Stroke" Color="Black"/>
+    <SolidColorBrush x:Key="WindowTitleBar.Button.MouseOver" Color="WhiteSmoke"/>
+    <SolidColorBrush x:Key="WindowTitleBar.Button.MouseDown" Color="#9B9B9B"/>
+    <BitmapImage x:Key="Cogweel" UriSource="../img/DarkCogweel.png"/>
+    <!--Text-->
+    <SolidColorBrush x:Key="Window.Foreground" Color="Black"/>
+    <!--CompletedButton-->
+    <!--<SolidColorBrush x:Key="CompletedButton.MouseOver.Background" Color="#555555"/>
+    <SolidColorBrush x:Key="CompletedButton.MouseOver.BorderBrush" Color="#555555"/>-->
+    <SolidColorBrush x:Key="CompletedButton.Pressed.Background" Color="#343434"/>
+    <SolidColorBrush x:Key="CompletedButton.Pressed.BorderBrush" Color="#343434"/>
+    <SolidColorBrush x:Key="CompletedButton.Checked.Background" Color="#333333"/>
+    <SolidColorBrush x:Key="CompletedButton.Checked.BorderBrush" Color="#333333"/>
+    <!--Task-->
+    <SolidColorBrush x:Key="Task.BorderBrush" Color="#B0B0AC"/>
+    <SolidColorBrush x:Key="Task.Title.BorderBrush" Color="#B0B0AC"/>
+    <!--Scroll Viewer-->
+    <SolidColorBrush x:Key="ScrollViewer.Background" Color="#858585"/>
+    <SolidColorBrush x:Key="ScrollViewer.NouseOver.Background" Color="#565656"/>
+    <SolidColorBrush x:Key="ScrollViewer.MousePressed.Background" Color="#494949"/>
+    <SolidColorBrush x:Key="ScrollViewer.ScrollBar.Background" Color="Transparent"/>
+    <!--Add Task Button-->
+    <SolidColorBrush x:Key="AddTaskButton.MouseOver.Background" Color="WhiteSmoke"/>
+    <SolidColorBrush x:Key="AddTaskButton.MouseDown" Color="#9B9B9B"/>
+</ResourceDictionary>
